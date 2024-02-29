@@ -1,0 +1,116 @@
+.rightSection {
+  background-color: var(--col2);
+  height: 100vh;
+  padding: 0 20px;
+  /* justify-content: space-between; */
+}
+
+.chatgptversion {
+  display: flex;
+  align-items: center;
+  height: 10%;
+  color: var(--textcol);
+  font-size: 25px;
+  gap: 10px;
+}
+
+.chatgptversion svg {
+  height: 20px;
+  width: 20px;
+}
+
+.nochat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: var(--textcol);
+  font-size: 25px;
+  height: 70%;
+  position: relative;
+}
+
+.nochat .s1 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  gap: 10px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nochat .s1 h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.nochat .s2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  gap: 20px;
+  justify-content: center;
+}
+
+.nochat .suggestioncard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  padding: 10px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.nochat .suggestioncard h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.nochat .suggestioncard p {
+  font-size: 16px;
+  font-weight: 400;
+  color: gray;
+}
+
+.bottomsection {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.bottomsection svg {
+  height: 25px;
+  width: 25px;
+  background-color: gray;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bottomsection svg:hover {
+  background-color: white;
+}
+
+.bottomsection .messagebar {
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 10px;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.bottomsection .messagebar input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: var(--textcol);
+  width: 100%;
+}
